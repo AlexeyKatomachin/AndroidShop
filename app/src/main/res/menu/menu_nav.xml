@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inbox"
+            android:icon="@drawable/mailicon"
+            android:title="@string/nav_inbox"/>
+
+        <item android:id="@+id/nav_order"
+            android:icon="@drawable/wrighticon"
+            android:title="@string/nav_order"/>
+
+        <item android:id="@+id/nav_send"
+            android:icon="@drawable/sendicon"
+            android:title="@string/nav_send"/>
+
+        <item android:id="@+id/nav_trash"
+            android:icon="@drawable/trashicon"
+            android:title="@string/nav_trash"/>
+    </group>
+
+    <item android:title="@string/nav_support">
+        <menu>
+            <item  android:id="@+id/nav_help"
+                android:icon="@drawable/questionicon"
+                android:title="@string/nav_help"/>
+
+            <item android:id="@+id/nav_feedback"
+                android:icon="@drawable/mailicon"
+                android:title="@string/bav_feedback"/>
+        </menu>
+    </item>
+
+</menu>
